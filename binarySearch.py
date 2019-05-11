@@ -19,7 +19,7 @@ def BinarySearch(target, array):
         else:
             low= middle + 1
 
-    print("Value not found")
+    print("Value not found.")
     return False 
 
 
