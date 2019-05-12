@@ -1,7 +1,7 @@
-from bubbleSort import  BubbleSort
+from selectionSort import SelectionSort
 
-list = [98, 3, 6, 7, 8, 97, 19, 12, 43, 21, 2, 14, 1]
+list = [1,3,2]
 
-srtlist = BubbleSort(list)
+Sort = SelectionSort(list)
 
-print(srtlist)
+print(Sort)
